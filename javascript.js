@@ -67,3 +67,44 @@ function hamed(num1, num2) {
 
 hamed(23, 0.5);
 */
+
+var a1 = 0;
+var a2 = 0;
+var a3 = 0;
+var b1 = 0;
+var b2 = 0;
+var b3 = 0;
+
+function div(num1, num2) {
+  var num3 = num1 / num2;
+  console.log('num1, num2:' + num3);
+}
+
+function mul(num1, num2) {
+  var num3 = num1 * num2;
+  console.log('num1, num2:' + num3);
+}
+
+function add(num1, num2) {
+  var num3 = num1 + num2;
+  console.log('num1, num2:' + num3);
+}
+
+function sub(num1, num2) {
+  var num3 = num1 - num2;
+  console.log('num1, num2:' + num3);
+}
+
+
+function compare(num1, num2) {
+  return num1 === num2;
+}
+
+function process() {
+  for (i = 0; i < 4; i++) {
+    console.log(i);
+  }
+}
+
+console.log(compare(1, 1));
+process();
